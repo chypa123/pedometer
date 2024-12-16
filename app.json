@@ -16,10 +16,17 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": [
+        "ACTIVITY_RECOGNITION",
+        "BODY_SENSORS",
+        "HIGH_SAMPLING_RATE_SENSORS"
+      
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.pedometer"
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -4,15 +4,23 @@
   "main": "index.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~52.0.11",
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "expo": "~52.0.17",
+    "expo-sensors": "~14.0.1",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
-    "react-native": "0.76.3"
+    "react-dom": "18.3.1",
+    "react-native": "0.76.3",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-google-fit": "^0.21.0",
+    "react-native-pedometer": "^0.0.7",
+    "react-native-reanimated": "^3.16.3",
+    "react-native-web": "~0.19.13"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
